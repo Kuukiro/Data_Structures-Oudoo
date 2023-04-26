@@ -22,5 +22,15 @@ public:
 	bool Del_Seq(SqList& L, ElemType s, ElemType t);
 	// P18_05
 	bool Del_Seq_NoSort(SqList& L, ElemType s, ElemType t);
+	// P18_06
+	void Del_Same(SqList& L);
+	// P18_07
+	bool Merge(SqList L1, SqList L2, SqList& L_res);
+	// P18_08
+	bool Exchange(SqList& L, int m, int n);
+	// P18_09
+	void Find_x(SqList& L, ElemType x);
+	// P18_10
+	void LMove(int R[], int n, int p);
 };
 
